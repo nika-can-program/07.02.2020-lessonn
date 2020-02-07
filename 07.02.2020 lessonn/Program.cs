@@ -82,26 +82,28 @@ namespace _07._02._2020_lessonn
 
         static void Main(string[] args)
         {
-           // Animal cat = new Animal();
-           // cat.agression = 0;
-           // cat.breed = "Мейн Кун";
-          //  cat.color = "абсолютно разнообразный";
-          //  cat.MyInfo();
+           Animal cat = new Animal();
+           cat.agression = 0;
+           cat.breed = "Мейн Кун";
+           cat.color = "абсолютно разнообразный";
+           cat.MyInfo();
 
-          //  Animal dog = new Animal();
-           // dog.breed = "Немецкая Овчарка";
-           // dog.color = "Коричневая с серым";
-           // dog.agression = 5557;
-           // dog.MyInfo();
+           Animal dog = new Animal();
+           dog.breed = "Немецкая Овчарка";
+           dog.color = "Коричневая с серым";
+           dog.agression = 5557;
+           dog.MyInfo();
 
-           // Animal rat = new Animal("Крыса", "Палзучая");
-           // rat.MyInfo();
+           Animal rat = new Animal("Крыса", "Палзучая");
+           rat.MyInfo();
 
-           // Animal badger = new Animal("Барсук", "Лесной", "Черно-белый");
-           // badger.MyInfo();
+           Animal badger = new Animal("Барсук", "Лесной", "Черно-белый");
+           badger.MyInfo();
 
-           // Animal parrot = new Animal("птица", "Крикунья", "Радужный", 666);
-           // parrot.MyInfo();
+           Animal parrot = new Animal("птица", "Крикунья", "Радужный", 666);
+           parrot.MyInfo();
+
+
 
             Tiles type1 = new Tiles();
             type1.getData();
